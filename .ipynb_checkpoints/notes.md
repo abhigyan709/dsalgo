@@ -8,6 +8,7 @@ add(element):
                   
 append() method of python list implicitly implements the above algorithm,
 
+# this is how the insert() function works in python data structures, insertion of the element at particular index
 insert(pos, element):
  1. If the list is filled to capacity
     a. Create a new list with increased capacity (capacity doubled)
