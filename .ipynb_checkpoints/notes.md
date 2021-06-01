@@ -36,4 +36,7 @@ Observations that we observed during the particular array operations:
     b) insertion and deletion from the list involves shift operations 
     c) it grows and shrinks in size dynamically based on insertion and deletions
 
+# employee directory system to implement the array 
+## when we look up for employee(s) by keying in his/her name in a directory of an organization, it retrieves the objects of all employees whose details have the keyed name in it and stores the employee objects in a list before displaying it. 
+### you can see the live exapmle in the array_employeelist.py file
 
