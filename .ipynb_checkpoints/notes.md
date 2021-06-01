@@ -29,3 +29,11 @@ Note: Capacity will be decreased whenever remaining number
 of elements fall below certain value
                 
 list.pop(index) ---> this function will delete the partuicular element from the list
+
+
+Observations that we observed during the particular array operations: 
+    a) here the grocery list is sequence of values
+    b) insertion and deletion from the list involves shift operations 
+    c) it grows and shrinks in size dynamically based on insertion and deletions
+
+
