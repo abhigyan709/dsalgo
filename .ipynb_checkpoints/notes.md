@@ -20,3 +20,12 @@ insert(pos, element) method in python list implicitly implements the abvove alog
 
 infyTQ cousre has some interactve session upon this, 
 
+# so what do you think how the deletion function works?
+## here is the logic!
+delete(pos):
+ 1. Shift left all the existing elements from index 
+    position (pos+1) by 1 position
+Note: Capacity will be decreased whenever remaining number 
+of elements fall below certain value
+                
+
