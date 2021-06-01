@@ -28,4 +28,4 @@ delete(pos):
 Note: Capacity will be decreased whenever remaining number 
 of elements fall below certain value
                 
-
+list.pop(index) ---> this function will delete the partuicular element from the list
