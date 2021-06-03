@@ -32,4 +32,22 @@ consider the following exanmple, where Mobile and Shoe clubs characterstics as d
     a) Shoe Characterstics
     b) purchase_shoe()
     c) return_shoe()
+### Templating Approach
+
+Once we have a template of data and the related behavior we can use that template to create many copies
+
+Mobile---|
+         |
+         |------charachterstics
+         |
+         |------purchase()
+             |
+             |--return()
+
+# Obejct Oriented Programming: 
+The templating style of programming in which we create template and create copies from that template is called **object oriented programming**
+
+## Classes and Object 
+The real world entities which can be described is called an **Object**
+
 
