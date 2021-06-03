@@ -22,3 +22,8 @@ lets start upgrading the program in version 5 i.e discount_problem_5.py
 we will add a facility to return the products as well, during return, refund amount should be displayed
 
 ### How do we go about displaying the refund amount? One way is to recalculate as defined in version 4. Here, price calculation logic is repeated in purchase as well as in return functions. This obviously is a bad idea.
+
+
+# version 6, discount_problem_6.py
+this version we will include the global variables like price of mobile and price of the shoe
+but this brings more complications that it tries to solve
