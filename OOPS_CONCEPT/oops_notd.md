@@ -12,3 +12,5 @@ data for mobile and shoe are mixed up in the same code
 to make changes in the logic for purchasing the shoes we have to modify that has logic for both shoes and mobiles. For example, if we have to add 'material' to the shoe and have a 5% on 'leather' shoes, then we have to gi through code related to mobile as well.
 # discount_problem_4.py is the other improvement
 here in this program we will be introducing the modular programming
+main function will be divied into 2 functions each one having 2 parameters
+it is explpained in the python file
