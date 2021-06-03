@@ -14,3 +14,11 @@ to make changes in the logic for purchasing the shoes we have to modify that has
 here in this program we will be introducing the modular programming
 main function will be divied into 2 functions each one having 2 parameters
 it is explpained in the python file
+
+
+
+# problem is now increasing and it is being complex
+lets start upgrading the program in version 5 i.e discount_problem_5.py
+we will add a facility to return the products as well, during return, refund amount should be displayed
+
+### How do we go about displaying the refund amount? One way is to recalculate the price as shown below. Here, price calculation logic is repeated in purchase as well as in return functions. This obviously is a bad idea.
