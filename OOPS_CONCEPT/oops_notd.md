@@ -27,3 +27,8 @@ we will add a facility to return the products as well, during return, refund amo
 # version 6, discount_problem_6.py
 this version we will include the global variables like price of mobile and price of the shoe
 but this brings more complications that it tries to solve
+
+
+# version 7, discount_problem_7.py
+so if we will buy two mobiles and want to return only one of them
+can we be sure that purchase _shoe() won't accidentally modify the global value for mobile?
