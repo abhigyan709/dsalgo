@@ -1,0 +1,2 @@
+class Mobile:
+    pass
