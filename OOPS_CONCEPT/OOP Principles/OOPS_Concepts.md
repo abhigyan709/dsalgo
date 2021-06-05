@@ -49,3 +49,21 @@ Similarly, a class contains the properties/attributes of the object and the oper
 
 ### So how we will declare the class or design the class?
 have a reference from first program: **class_program_1.py**
+to create an object we need a class, the syntax for creating an object is "<classname>()" where <classname> is the name of class
+following code implements the object creation
+1. Mobile()
+2. Mobile()
+3. Mobile()
+
+#### Consider the following piece of code
+1. 10
+2. 10
+3. 10
+Yes it is valid, we are just creating 3 values in 3 lines without storing them in any variables and also we can't access them
+### next version of the programme:
+
+
+# Reference Variables
+we need variables to access and use values, and same we need variables to access and reuse the objects that we create. Such variables that are used to access objects are called **reference variables**
+
+
