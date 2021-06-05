@@ -66,4 +66,10 @@ Yes it is valid, we are just creating 3 values in 3 lines without storing them i
 # Reference Variables
 we need variables to access and use values, and same we need variables to access and reuse the objects that we create. Such variables that are used to access objects are called **reference variables**
 
+you can see how to access the reference varibles 
 
+### So now? if 2 object is looking same and its having the same values, can we treat it as a single object ?
+
+each object is unique and independent of other object. just like every person, including twins, are unique, so is every object.
+
+refer to the class_program_2.py
