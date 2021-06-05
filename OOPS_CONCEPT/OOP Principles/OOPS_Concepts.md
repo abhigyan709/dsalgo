@@ -73,3 +73,6 @@ you can see how to access the reference varibles
 each object is unique and independent of other object. just like every person, including twins, are unique, so is every object.
 
 refer to the class_program_2.py
+you can say that every object have an internal unique ID i.e AADHAR Card/Green Card Number the id will reflect the same concept!
+
+**Creating Attributes and Values of the particular attributes**
