@@ -76,3 +76,7 @@ refer to the class_program_2.py
 you can say that every object have an internal unique ID i.e AADHAR Card/Green Card Number the id will reflect the same concept!
 
 **Creating Attributes and Values of the particular attributes**
+this is majorly done by :
+reference_variable.attribute_name = value
+let's have a particular view upon this in the version 3, class_program_3.py
+
