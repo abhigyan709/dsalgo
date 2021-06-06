@@ -80,3 +80,7 @@ this is majorly done by :
 reference_variable.attribute_name = value
 let's have a particular view upon this in the version 3, class_program_3.py
 
+**Additional Attributes**
+The class_program_4.py shows how we can add additional attributes to the object 
+this also shows how we can add them to particular obejcts
+particular attributes for particular objects
