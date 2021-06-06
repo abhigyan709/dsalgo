@@ -8,4 +8,6 @@ I simply answered that sir python is simple, easy to learn and high definition l
 # Brief history of Python
 1. Developed by Guido Vann Rosum in 1989
 2. Two version of python i.e Python 2.x & Python 3.x
-3. Initially developed as a hobby programming language and then it was launched in 1989
+3. Initially developed as a hobby programming language and then it was launched in 1989 officially.
+4. Currently we are are using the most common veresion Python 3.x
+5. Python is used in various fields i.e from scripting to web application, cloud to data science.
