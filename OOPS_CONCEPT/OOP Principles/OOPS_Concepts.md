@@ -38,14 +38,14 @@ The templating style of programming in which we create template and create copie
 The real world entities which can be described is called an **Object**
 Similarly, a class contains the properties/attributes of the object and the operations/behavior that can be performed on an object 
 
-### Mobile
+#### Mobile
 **Attributes**
     1. Price
     2. Brand
 
 **Behavior**
-   1. Purchase 
-   2. Return
+    1. Purchase 
+    2. Return
 
 ### So how we will declare the class or design the class?
 have a reference from first program: **class_program_1.py**
