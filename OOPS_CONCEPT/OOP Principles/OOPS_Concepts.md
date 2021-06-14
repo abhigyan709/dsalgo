@@ -88,3 +88,8 @@ particular attributes for particular objects
 
 **assigning v/s updating**
 you can also update the values of an existing attribute using the dot operator. For example refer to the version 5: class_program_5.py.
+
+# What will happen if you will try to access non-exixting attribute?
+
+you will get an attribute error
+see live example in class_program_6.py
