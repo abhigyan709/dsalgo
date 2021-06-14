@@ -40,12 +40,12 @@ Similarly, a class contains the properties/attributes of the object and the oper
 
 ### Mobile
 **Attributes**
-   1. Price
-   2. Brand
+    1. Price
+    2. Brand
 
 **Behavior**
-   1. Purchase 
-   2. Return
+    1. Purchase 
+    2. Return
 
 ### So how we will declare the class or design the class?
 have a reference from first program: **class_program_1.py**
