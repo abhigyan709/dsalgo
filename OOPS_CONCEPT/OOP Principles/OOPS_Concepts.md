@@ -84,3 +84,7 @@ let's have a particular view upon this in the version 3, class_program_3.py
 The class_program_4.py shows how we can add additional attributes to the object 
 this also shows how we can add them to particular obejcts
 particular attributes for particular objects
+
+
+**assigning v/s updating**
+you can also update the values of an existing attribute using the dot operator. For example refer to the version 5: class_program_5.py.
