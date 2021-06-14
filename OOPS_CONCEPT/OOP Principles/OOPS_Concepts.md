@@ -40,25 +40,25 @@ Similarly, a class contains the properties/attributes of the object and the oper
 
 ### Mobile
 **Attributes**
-1. Price
-2. Brand
+   1. Price
+   2. Brand
 
 **Behavior**
-1. Purchase 
-2. Return
+   1. Purchase 
+   2. Return
 
 ### So how we will declare the class or design the class?
 have a reference from first program: **class_program_1.py**
 to create an object we need a class, the syntax for creating an object is "<classname>()" where <classname> is the name of class
 following code implements the object creation
-1. Mobile()
-2. Mobile()
-3. Mobile()
+    1. Mobile()
+    2. Mobile()
+    3. Mobile()
 
 #### Consider the following piece of code
-1. 10
-2. 10
-3. 10
+    1. 10
+    2. 10
+    3. 10
 Yes it is valid, we are just creating 3 values in 3 lines without storing them in any variables and also we can't access them
 ### next version of the programme:
 
@@ -93,3 +93,11 @@ you can also update the values of an existing attribute using the dot operator. 
 
 you will get an attribute error
 see live example in class_program_6.py
+
+# Varibles v/s Attributes
+
+The rules of creating the variables and attributes are same, but we have to treat reference_variable.attribute_name as a variable.
+
+## Variables
+    a) Variable_name = variable;
+    b) 
