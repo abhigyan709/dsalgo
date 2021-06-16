@@ -21,6 +21,7 @@ They will have characterstics, we will have 2 function purchase and return consi
     a) Shoe Characterstics
     b) purchase_shoe()
     c) return_shoe()
+
 ### Templating Approach
 Once we have a template of data and the related behavior we can use that template to create many copies
 Mobile---|
@@ -40,12 +41,12 @@ Similarly, a class contains the properties/attributes of the object and the oper
 
 #### Mobile
 **Attributes**
-    1. Price
-    2. Brand
+1. Price
+2. Brand
 
 **Behavior**
-    1. Purchase 
-    2. Return
+1. Purchase 
+2. Return
 
 ### So how we will declare the class or design the class?
 have a reference from first program: **class_program_1.py**
@@ -100,4 +101,12 @@ The rules of creating the variables and attributes are same, but we have to trea
 
 ## Variables
     a) Variable_name = variable;
-    b) 
+    b) Variable_name = value;
+    c) Variable_name = updated_value; #
+    d) accessing non existing varibale throws an error
+    e) a variable can be assigned to another variable
+
+## Attributes
+    a) reference_variable.attribute_name = value;
+    b) reference_variable.attribute_name = updated_value;
+    c) 

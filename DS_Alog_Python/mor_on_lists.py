@@ -1,17 +1,23 @@
-# list is a mutable data type
-# mutable i.e values that can be changed, or manipulated
+# python's inbuilt data structures
 
 # append
-# syntax: list_name.append('list_value/item')
-fruits = []
-fruits.append('apple')
-fruits.append('pear')
-fruits.append('banana')
+fruits = [] # empty list
+# work of append function in python: add and item to the end of the list 
+# syntax: list_name.append("particular_item")
 
+fruits.append("apple") # append takes only one parameters
+# print(fruits)
 
-# insert
-# syntax: list_name(index, element/item)
-fruits.insert(0, 'orange')
-print(fruits, len(fruits))
+fruits.append("orange")
+fruits.append("berries")
+# print(fruits)
+
+# insert operation 
+# work: insert an item at a given position 
+# syntax: list_name.insert(index_position, particular_item)
+
+print(fruits)
+fruits.insert(1, "banana")
+print(fruits)
 
 
