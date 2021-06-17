@@ -3,9 +3,9 @@
 # lets see how we can create mobile class:
 
 class Mobile:
-    def __init__(self, brand, price):
-        self.brand = brand
-        self.price = price
+    def __init__(self, brand, price): # brand and price are parameters
+        self.brand = brand # attributes
+        self.price = price # attributes
 mob1 = Mobile("Apple", 20000)
 mob2 = Mobile("Samsung", 8000)
 
