@@ -146,3 +146,8 @@ When we create an object, the special __init__() method inside the class of that
 
 we can create a constructor without parameters. but this rarely useful!
 See the **class_program_9.py** to see the live example
+
+
+# Parameterized Constructor
+If a constructor takes parameters then it would be called as parameterized constructor.
+class_program_10.py will show the live example!
