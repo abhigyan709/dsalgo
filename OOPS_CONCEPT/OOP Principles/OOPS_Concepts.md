@@ -113,3 +113,23 @@ The rules of creating the variables and attributes are same, but we have to trea
     c) accessing a non-existent attribute throws an error
     d) value of attrubute can be assigned to another value
     e) variable1 = reference_variable1.color;
+
+
+# Explantion of class_program_7.py
+this program will not give an error
+However, mob2 will have an attribute ios_versio. This spelling mistake creates a new attribute! Hence be careful when assigning values to attributes of an object.
+
+The best practice is to ensure all objects of a class have the same set of attributes.
+
+Very rarely should we create a new attributes! Hence we will have to be careful upon this.
+
+Also, languages like Java, C# etc do not allow us to create different set of attributes objects like python does.
+
+
+# Creating common attributes
+you have seen the problem arising out of human error in creating atributes individually.
+In this we will also face the problem of non-reusable codes.
+
+For example: an object having 10 attributes and we have 10 objects, then we have to write 100 lines of code! There is no reuse at all!
+
+in the next class_program_8.py you will see how to reslove this issue!
