@@ -151,3 +151,9 @@ See the **class_program_9.py** to see the live example
 # Parameterized Constructor
 If a constructor takes parameters then it would be called as parameterized constructor.
 class_program_10.py will show the live example!
+
+
+# Prameterless & Parameterized Constructor
+If a constructor takes a parameters and if we invoke it with a different number of parameters were missed out or exceeded
+
+see live example in class_program_11.py
