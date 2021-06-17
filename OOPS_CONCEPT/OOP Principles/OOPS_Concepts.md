@@ -143,3 +143,6 @@ When we create an object, the special __init__() method inside the class of that
         def __init__(self):
             print("Inside Constructor")
     mob1 = Mobile()
+
+we can create a constructor without parameters. but this rarely useful!
+See the **class_program_9.py** to see the live example
