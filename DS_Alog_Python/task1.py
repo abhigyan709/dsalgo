@@ -3,4 +3,4 @@ my_list = []
 for i in range(size_of_list):
     i = input("Enter the element: ")
     my_list.append(i)
-print(my_list)
+print("Your self made list is: ", my_list)
