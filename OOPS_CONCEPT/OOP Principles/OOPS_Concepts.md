@@ -104,9 +104,12 @@ The rules of creating the variables and attributes are same, but we have to trea
     b) Variable_name = value;
     c) Variable_name = updated_value; #
     d) accessing non existing varibale throws an error
-    e) a variable can be assigned to another variable
+    e) a variable can be assigned to another variable 
+    f) variable2 = variable1;
 
 ## Attributes
     a) reference_variable.attribute_name = value;
     b) reference_variable.attribute_name = updated_value;
-    c) 
+    c) accessing a non-existent attribute throws an error
+    d) value of attrubute can be assigned to another value
+    e) variable1 = reference_variable1.color;
