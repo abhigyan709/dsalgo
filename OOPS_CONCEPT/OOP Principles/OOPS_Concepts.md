@@ -133,3 +133,13 @@ In this we will also face the problem of non-reusable codes.
 For example: an object having 10 attributes and we have 10 objects, then we have to write 100 lines of code! There is no reuse at all!
 
 in the next class_program_8.py you will see how to reslove this issue!
+
+
+# Constructor & Self-Introduction
+## Constructor:
+When we create an object, the special __init__() method inside the class of that object is invoked automatically. This special function is called as a constructor.
+
+    class Mobile:
+        def __init__(self):
+            print("Inside Constructor")
+    mob1 = Mobile()

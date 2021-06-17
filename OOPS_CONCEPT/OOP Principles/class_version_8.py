@@ -11,3 +11,5 @@ mob2 = Mobile("Samsung", 8000)
 
 print(mob1.brand, mob1.price)
 print(mob2.brand, mob2.price)
+
+# Note: The parameters names and attribute names need not match.
