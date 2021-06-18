@@ -157,3 +157,11 @@ class_program_10.py will show the live example!
 If a constructor takes a parameters and if we invoke it with a different number of parameters were missed out or exceeded
 
 see live example in class_program_11.py
+
+
+# Attribute Creation Using Self: 
+By using self.attribute_name and assigning a value we are creating attributes to the current object. The best practice is to create attributes inside the constructor.
+
+## Attribute v/s Local Variable
+Attributes can be created only by using the self variable and the dot operator. Without self we are only creating a local vriable an not an attribute.
+
