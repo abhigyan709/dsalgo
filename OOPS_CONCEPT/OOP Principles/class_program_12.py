@@ -12,7 +12,8 @@ print("Id of mob1 in driver code", id(mob1))
 mob2 = Mobile(1000, "Apple")
 print("Id of mob2 in driver code", id(mob2))
 
-
+# attributes can be created only by using self variable, and the dot operator.
+# without self we are creating only a local variable not attributes
 class Mobile2:
     def __init__(self):
         print("Inside the mobile constructor")
