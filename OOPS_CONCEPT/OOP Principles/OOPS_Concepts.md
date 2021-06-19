@@ -165,3 +165,12 @@ By using self.attribute_name and assigning a value we are creating attributes to
 ## Attribute v/s Local Variable
 Attributes can be created only by using the self variable and the dot operator. Without self we are only creating a local vriable an not an attribute.
 
+
+# Creating behavior in the class
+# adding more functions to the class 
+but these type of functions should have special parameter called self as the first parameter.
+
+Such functions which describe the behaviour are also called as methods. we can invoke the methods using the dot operation as shown in the live example.
+class_program_13.py
+
+even though purchase() is accepting a parameter called self, we need not pass it when we invoke it.
