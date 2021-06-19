@@ -7,5 +7,6 @@ class Mobile:
     def purchase(self):
         print("Purchasing a Mobile")
 
+# version changes and we call purchase()
 mob1 = Mobile()
 mob1.purchase()
