@@ -174,3 +174,11 @@ Such functions which describe the behaviour are also called as methods. we can i
 class_program_13.py
 
 even though purchase() is accepting a parameter called self, we need not pass it when we invoke it.
+
+
+# Method accessing attributes
+ we can access an attribute in a method by using self. 
+ value of the attribute accessed inside the method is determined by the object used to invoke the method.
+
+ For example, in the code below when we invoke purchase usning mob1, attributes values (Apple and 20000) of mob1 are accessed. see example class_program_14.py file 
+ 
