@@ -181,4 +181,8 @@ even though purchase() is accepting a parameter called self, we need not pass it
  value of the attribute accessed inside the method is determined by the object used to invoke the method.
 
  For example, in the code below when we invoke purchase usning mob1, attributes values (Apple and 20000) of mob1 are accessed. see example class_program_14.py file 
+
+
+ # Invoking methods:
+ We can also invoke one method from another using self.
  

@@ -16,3 +16,13 @@ print("Mobile-2")
 mob2 = Mobile("Samsung", 8000)
 mob2.purchase()
 
+
+class Mobile2:
+    def display(self):
+        print("Displaying Details")
+
+    def purchase(self):
+        self.display()
+        print("Calcuating the price")
+
+Mobile2().purchase()
