@@ -205,3 +205,9 @@ in the below code how does return_product() method know which mobile object we a
     mob2.return_product()
 
 in the above code snippet, **mob2.return_product()** can also be invoked as **Mobile.return_product(mob2)**.
+
+
+# Deep Dive into Self & Methods
+
+| Method Invocation | Method Definition | Explanation |
+|-------------------|-------------------|-------------|
