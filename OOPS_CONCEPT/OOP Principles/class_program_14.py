@@ -16,7 +16,7 @@ print("Mobile-2")
 mob2 = Mobile("Samsung", 8000)
 mob2.purchase()
 
-
+# we can invoke one method from another using self:
 class Mobile2:
     def display(self):
         print("Displaying Details")
