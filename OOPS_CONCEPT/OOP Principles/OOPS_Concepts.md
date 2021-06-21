@@ -212,7 +212,7 @@ in the above code snippet, **mob2.return_product()** can also be invoked as **Mo
 
 | Method Invocation | Method Definition | Explanation |
 |-------------------|-------------------|-------------|
-| mob1.display() | def display(self): print(self.discount) | Here, 'self' is the first parameter. Hence it refers to mob1. |
+| mob1.display() | def display(self):     print(self.discount) | Here, 'self' is the first parameter. Hence it refers to mob1. |
 | mob1.display() | def display(mob_obj): print(mob_obj.discount) | Here, ‘mob_obj' is the first parameter. Hence it refers to ‘mob1'. | 
 | mob1.purchase(2) |def purchase(self,qty):print("Total is ",self.price*qty) | Here, 'self' is the first parameter. Hence it refers to ‘mob1'.The second parameter is ‘qty' which stores 2 passed during invocation. |
 | mob1.purchase(2) |
