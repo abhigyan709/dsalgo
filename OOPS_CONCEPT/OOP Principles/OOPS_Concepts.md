@@ -153,6 +153,7 @@ If a constructor takes parameters then it would be called as parameterized const
 class_program_10.py will show the live example!
 
 
+
 # Prameterless & Parameterized Constructor
 If a constructor takes a parameters and if we invoke it with a different number of parameters were missed out or exceeded
 
@@ -212,7 +213,12 @@ in the above code snippet, **mob2.return_product()** can also be invoked as **Mo
 | Method Invocation | Method Definition | Explanation |
 |-------------------|-------------------|-------------|
 | mob1.display() | def display(self): print(self.discount) | Here, 'self' is the first parameter. Hence it refers to mob1. |
-| mob1.display() |
+| mob1.display() | def display(mob_obj): print(mob_obj.discount) | Here, ‘mob_obj' is the first parameter. Hence it refers to ‘mob1'. | 
 | mob1.purchase(2) |
 | mob1.purchase(2) |
 | mob1.display() |
+
+
+
+# Need for the references:
+Live example: what happens to a balloon without the ribbon connecting 
