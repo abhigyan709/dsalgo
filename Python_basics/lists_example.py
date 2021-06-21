@@ -40,4 +40,11 @@ cubes = list(map(lambda x: x**3, range(1, 11)))
 print("Cubes using lambda function: ", cubes)
 
 # slicing a list 
-finishers =
+finishers = ['sam', 'bob', 'ada', 'bea']
+first_two = finishers[:2]
+print(first_two)
+
+# copying a list
+copy_of_bikes = bikes[:]
+print(copy_of_bikes)
+
