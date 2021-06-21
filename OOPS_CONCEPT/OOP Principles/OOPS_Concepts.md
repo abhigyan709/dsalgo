@@ -221,4 +221,13 @@ in the above code snippet, **mob2.return_product()** can also be invoked as **Mo
 
 
 # Need for the references:
+## refer to the program: class_program_18.py
 Live example: what happens to a balloon without the ribbon connecting 
+
+
+
+# multiple references - updating object 
+## refer to the program: class_program_19.py
+Just like the balloon with the multiple ribbons, if we change the attribute of an object through one reference variable, it immediately reflects in other reference variable as there is only one ballon ultimately! 
+
+
