@@ -245,3 +245,13 @@ Lets get into it in version 20 of class program.
 3. An object can have multiple refernce varables.
 4. Assigning a new refernce varible to an existing object does not create new object.
 
+
+# Printing an Object :
+refering to the class_program_21.py we have two different class
+
+to print the object we have output with hexagonal form
+
+for a more readable outputs, printing an object we can use the inbuilt special __str__ method. 
+
+always remember that this method must return a string and the string will be used when the object is printed. This is useful in debugging an we can print the values of the attributes.
+
