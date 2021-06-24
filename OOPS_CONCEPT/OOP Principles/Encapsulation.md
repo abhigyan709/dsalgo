@@ -14,3 +14,9 @@ adding a double underscore makes the attribute a private attribute. private attr
 when we put a double underscore in front of the attribute name, python will internally change its name to _Classname__attribute.
 
 This is why we get an error when we try to access a private attribute.
+
+
+### Private data update caution!!
+if you try to assign a value to a private variable, we end up creating a new attribute in python.
+
+thus the code in encapsulation_example_5.py, will not give an error but it is logically flawed and doesnot produce the intended result.
