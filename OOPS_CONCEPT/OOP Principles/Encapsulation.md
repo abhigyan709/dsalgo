@@ -41,4 +41,9 @@ Meaning that you should not break the rule accidently, but if you want to break 
 
 ## Getters & Setters in Python 
 
+To have a error free way of accessing and updating private variables, we create specific methods for this.
+    a) the methods which are meant to set a value to a private variable are called **setter methods**
+    b) the methods meant to access private variable values are called **getter methods**
+
+encapsulation_example_7.py shows the live example.
 
