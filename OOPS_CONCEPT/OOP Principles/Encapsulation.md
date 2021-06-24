@@ -20,3 +20,10 @@ This is why we get an error when we try to access a private attribute.
 if you try to assign a value to a private variable, we end up creating a new attribute in python.
 
 thus the code in encapsulation_example_5.py, will not give an error but it is logically flawed and doesnot produce the intended result.
+
+### Accessing the private variables
+we all know that the name of the variable changes when we make it private, we can access it using its modified name as shown in the encapsulation_example_6.py
+
+**Note**: langueges like Java, C#, etc do not allow access of private variables outside the class.
+
+now the question arises 
