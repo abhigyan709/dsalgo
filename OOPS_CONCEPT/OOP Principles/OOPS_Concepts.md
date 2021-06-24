@@ -255,3 +255,22 @@ for a more readable outputs, printing an object we can use the inbuilt special _
 
 always remember that this method must return a string and the string will be used when the object is printed. This is useful in debugging an we can print the values of the attributes.
 
+
+# Coding standards in Python 
+
+all variable and method are in snake_case and all class name should be in PascalCase
+
+it is same as camelCase but the first character is also capitilzed
+
+    Classes:
+    Mobile
+    RegularCustomer
+
+    Methods:
+    change_password()
+    display_details()
+
+    Variables:
+    price = 1000
+    brand = "Samsung"
+
