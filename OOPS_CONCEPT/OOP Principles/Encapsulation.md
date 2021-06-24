@@ -47,3 +47,18 @@ To have a error free way of accessing and updating private variables, we create 
 
 encapsulation_example_7.py shows the live example.
 
+### Class Diagram!!
+Class diagram is simple and easy to understand. It consists of following parts:
+1. name of the class
+2. list of attributes
+3. list of methods 
+4. access specifiers, i.e getter/setters
+
+in a class diagram a (-)ve sign indicates the private access and (+)ve indicates public access.
+
+**Note**
+We can create private methods by adding a double underscore in front of it, just like private variables. Also if a method has both leading and trailing double underscores (like __init__, __str__, etc ) it indcates that is a special built-in method.
+As per coding standards and rules, we are not supposed to create our own methods with noth leading and trailing underscores.
+
+
+
