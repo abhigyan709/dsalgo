@@ -239,3 +239,9 @@ What will happen to the first balloon?
 Will it be lost?
 Lets get into it in version 20 of class program.
 
+# Reference Variable Summary
+1. Reference variables hold the objects.
+2. We can create objects without reference variable as well.
+3. An object can have multiple refernce varables.
+4. Assigning a new refernce varible to an existing object does not create new object.
+
