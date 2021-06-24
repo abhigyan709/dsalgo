@@ -231,3 +231,11 @@ Live example: what happens to a balloon without the ribbon connecting
 Just like the balloon with the multiple ribbons, if we change the attribute of an object through one reference variable, it immediately reflects in other reference variable as there is only one ballon ultimately! 
 
 
+
+# differencing and assigning 
+so what do you think?
+If you will take one of multiple ribbons of balloon 1 and tie it to another balloon?
+What will happen to the first balloon?
+Will it be lost?
+Lets get into it in version 20 of class program.
+
