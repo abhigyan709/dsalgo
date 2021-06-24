@@ -26,4 +26,19 @@ we all know that the name of the variable changes when we make it private, we ca
 
 **Note**: langueges like Java, C#, etc do not allow access of private variables outside the class.
 
-now the question arises 
+now the question arises why we use the data encapsulation in python if it is possible to access it from outside the class
+
+## Encapsulation - Just a Caution Sign!
+
+Any lock can be broken by a determined thief. 😁
+so in python just because we make our code private, does not mean it is not accessible to other developers. 
+
+When a developer sees a private variable/data, its a gentleman's agreement / understanding that not to access it directly. It is used to only prevent accidental access.
+
+thus in python **Encapsulation** is just a caution sigh rather than a lock.
+Meaning that you should not break the rule accidently, but if you want to break it, yes you can proceed. 😉
+
+
+## Getters & Setters in Python 
+
+
