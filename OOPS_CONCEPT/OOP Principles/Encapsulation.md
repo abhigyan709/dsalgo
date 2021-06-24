@@ -61,4 +61,24 @@ We can create private methods by adding a double underscore in front of it, just
 As per coding standards and rules, we are not supposed to create our own methods with noth leading and trailing underscores.
 
 
+# Way to use getter and setters:
+
+1. all setters must accept the value to be updated as a parameter and all getter methods must not have any parameter and they must retrun the value.
+
+2. Setter methods are called as mutators (as the mutate or change the value)
+
+3.  Getter methods are called accessor (as they access the values)
+
+see the encapsulation_example_8.py
+
+
+
+# Summary:
+1. encapsulation is process of preventing the data to be accessed outside the class
+
+2. adding a __ in front of a attribute makes it private
+
+3. in python, adding a __changes the name of the attribute to _Classname__attribute
+
+
 
