@@ -15,10 +15,15 @@ print("The alien's color is ", alien['color'])
 # adding a new key-value pair
 alien['x_position'] = 0
 
-# looping through all key-value pairs
+# looping through all key 
 fav_numbers = {
     'eric': 17,
     'ever': 14,
 }
 for name in fav_numbers.keys():
     print(name + ' loves a number')
+
+# looping through all the values
+
+for number in fav_numbers.values():
+    print(str(number) + ' loves the number')
