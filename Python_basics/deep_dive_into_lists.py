@@ -117,7 +117,96 @@ You can use the list() function to efficiently generate a large list of numbers.
 
 # printing the numbers fron 0 to 1000
 
-for numbers in range(1001):
+for numbers in range(1001): # syntax of range: range(start, stop, step)
     print("Number: ", numbers)
 
-print(numbers)
+# basic statstics in list:
+ages = [25, 26, 28, 19, 18, 17, 35, 36]
+sum_ages = sum(ages)
+min_ages = min(ages)
+max_ages = max(ages)
+
+print("Sum of ages: ", sum_ages)
+print("Youngest: ", min_ages)
+print("Oldest: ", max_ages)
+
+
+# slicing a list 
+"""You can work with any set of elements from a list.
+A portion of a list is called a slice.
+"""
+# getting the 1st 3 elements:
+finishers = ['kai', 'abe', 'ada', 'gus', 'zoe']
+print("Finishers: ", finishers)
+first_3 = finishers[:3]
+print("Fisrt 3 finishers: ", first_3)
+
+middle_3 = finishers[1:4]
+print("Middile 3 finishers: ", middle_3)
+
+last_3 = finishers[-3:]
+print("Last 3 of finishers: ", last_3)
+
+# copy of a list
+copy_of_list = finishers[:]
+print(copy_of_list)
+
+# list comprehension
+"""To use a list comprehension, define an expression for the values you want to store in the list.
+Then write a for loop to generate input values needed to makes the list."""
+
+square = []
+for x in range(10):
+    square.append(x**2)
+print(square)
+squares = list(map(lambda x: x**2, range(10))) # list comprehension
+print(squares)
+
+"""another method
+list comprehension"""
+
+cubes = [x**3 for x in range(10)]
+print(cubes)
+
+"""a list comprehension consists of brackets containing an expression followed by a for clause, 
+then zero or more for or if clauses.
+The result will be a new list resulting from evaluating the expression in the context of the for and if clauses which follow it.
+For example: """
+
+my_tuple = [(x, y) for x in [1, 2, 3] for y in [3, 1, 4] if x != y]
+print(my_tuple)
+
+my_tuple_2 = [(x, y) for x in [1, 2, 3] for y in [2, 2, 2] if x == y]
+print(my_tuple_2)
+
+"""nested list comprehension can be any arbitrary expression, including another list comprehenshion.
+Consider the following example of 3 * 4 matrix implemented as a list of 3, 
+length of 4: """
+
+matrix = [
+    [1, 2, 3, 4],
+    [5, 6, 7, 8],
+    [9, 10, 11, 12],
+]
+
+new_mat = [[row[i] for row in matrix] for i in range(4)]
+print(new_mat)
+
+transposed = []
+for i in range(4):
+    transposed.append([row[i] for row in matrix])
+
+print(transposed)
+
+
+"""using a loop to convert a list of names to upper case"""
+names = ['kai', 'abe', 'ada', 'gus', 'zoe']
+upper_names = []
+for name in names:
+    upper_names.append(name.upper())
+print(upper_names)
+
+"""Another Methods"""
+names_2 = ['kai', 'abe', 'ada', 'gus', 'zoe']
+upper_names_2 = [nam.upper() for nam in names_2]
+print(upper_names_2)
