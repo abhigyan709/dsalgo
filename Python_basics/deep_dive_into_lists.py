@@ -86,3 +86,38 @@ print(sorted(users))
 print(sorted(users, reverse = True))
 
 # reversing the order of a list
+users.reverse()
+print(users)
+
+# looping through the lists
+"""Lists can have millions of items, so python provides an efficient way to loop through all the items in a list.
+When you set up a loop, Python pulls each item from the list one at a time
+and stores it in a temporary variable, which you provide a name for. 
+This name should be a singular version of the list name.
+The indented block of code makes up the body of the loop, where you can work with each individual item.
+Any lines that are not indented run after the loop is completed."""
+
+# print all items and len in the list
+
+for user in users:
+    print(user, len(user))
+
+# printing a message for each item, and a seperate message afterwards
+
+for user in users:
+    print("Welcome, " + user + "!")
+print("Welcome you all!")
+
+
+# The range() function
+"""You can use the range() function to work with a set of numbers efficiently.
+The range() functions starts at by default, and stops one number below the number passed to it.
+You can use the list() function to efficiently generate a large list of numbers.
+ """
+
+# printing the numbers fron 0 to 1000
+
+for numbers in range(1001):
+    print("Number: ", numbers)
+
+print(numbers)
