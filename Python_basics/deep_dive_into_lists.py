@@ -210,3 +210,20 @@ print(upper_names)
 names_2 = ['kai', 'abe', 'ada', 'gus', 'zoe']
 upper_names_2 = [nam.upper() for nam in names_2]
 print(upper_names_2)
+
+
+# tuples in the python 
+"""A tuple is like a list but it is immutable in nature.
+We can overwrite an entire tuple but you can't change the individual elements in a tuple.
+"""
+
+"""Defining a tuple"""
+
+dimensions = (800, 600)
+
+for dimension in dimensions:
+    print(dimension)
+
+dimensions = (800, 1080) # tuple over written
+
+
