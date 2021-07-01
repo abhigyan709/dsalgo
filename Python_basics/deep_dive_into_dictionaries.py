@@ -141,4 +141,44 @@ for username, user_dictionary in my_user.items():
 
     print("\tFull Name: " + full_name.title())
     print("\tLocation: " + location.title())
-    
+
+
+# levels of Nesting: 
+# using an OrderedDict:
+"""Standard python dictionaries don't keep track of the order in which keys and values are added;
+they only preserve the association between  each key and its value.
+If you want to preserve the order in which keys and values are added, use an OrderedDict.
+"""
+
+
+from collections import OrderedDict
+fav_languages = OrderedDict()
+
+fav_languages['jen'] = ['python', 'ruby']
+fav_languages['sarah'] = ['c', 'c++']
+fav_languages['edward'] = ['ruby', 'go']
+fav_languages['phil'] = ['python', 'haskel']
+
+# display the result in same order they 
+# were entered
+
+for name, langs in fav_languages.items():
+    print(name + ": ")
+    for lang in langs:
+        print("- " + lang)
+
+# making a million dictionaries
+aliens = []
+for alien_num in range(1000000):
+    new_alien = {}
+    new_alien['color'] = 'green'
+    new_alien['points'] = 5
+    new_alien['x'] = 20 * alien_num
+    new_alien['y'] = 0
+    aliens.append(new_alien)
+
+num_aliens = len(aliens)
+
+print("Number of aliens created: ")
+print(num_aliens)
+print(aliens)
