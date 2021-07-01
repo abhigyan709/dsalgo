@@ -124,6 +124,21 @@ my_user = {
     'aeinstein': {
         'first': 'albert',
         'last': 'einstein',
-        
-    }
+        'location': 'princeton'
+    },
+    'mcurie': {
+        'first': 'marie',
+        'last' : 'curie',
+        'location' : 'paris',
+    },
 }
+
+for username, user_dictionary in my_user.items():
+    print("\nUsername: " + username)
+    full_name = user_dictionary['first'] + " "
+    full_name += user_dictionary['last']
+    location = user_dictionary['location']
+
+    print("\tFull Name: " + full_name.title())
+    print("\tLocation: " + location.title())
+    
