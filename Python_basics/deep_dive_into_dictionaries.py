@@ -80,3 +80,50 @@ new_user = {
 }
 users.append(new_user)
 print(users)
+
+for user_dict in users:
+    for k, v in user_dict.items():
+        print(k + ": " + v)
+    print("\n")
+
+# define a list of users, where each user is represented by a dictionary 
+users_2 = [
+    {
+        'last': 'kumar',
+        'first': 'abhigyan',
+        'username': 'akumar',
+    },
+    {
+        'last': 'kumar',
+        'first': 'gyanu',
+        'username': 'gkumar',
+    }
+]
+
+for user_dic in users_2:
+    for u, p in user_dic.items():
+        print(u + ": " + p)
+    print("\n")
+
+# list in a dictionary
+# storing multiple languages for each person.
+fav_languages = {
+    'jen': ['python', 'ruby'],
+    'sarah': ['c'],
+    'edward': ['ruby', 'go'],
+    'phil': ['python', 'haskell'],
+}
+
+for name, langs in fav_languages.items():
+    print(name + ": ")
+    for lang in langs:
+        print("- " + lang)
+
+# Dictionary of Dictionaries
+my_user = {
+    'aeinstein': {
+        'first': 'albert',
+        'last': 'einstein',
+        
+    }
+}
