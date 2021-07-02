@@ -39,10 +39,43 @@ a parameter. Arguments are included in parentheses after
 the function's name, and parameters are listed in 
 parentheses in the function's definition"""
 
-def greet_user(username):
+def greet_user(username): 
     """Display a simple greeting."""
     print("Hello, " + username + "!")
 
 greet_user('jessie')
 greet_user('diana')
 greet_user('brandon')
+
+
+# positional and keyword arguments
+
+"""The two main kinds of arguments are positional and 
+keyword arguments. When you use positional arguments 
+Python matches the first argument in the function call with
+the first parameter in the function definition, and so forth.
+ With keyword arguments, you specify which parameter 
+each argument should be assigned to in the function call. 
+When you use keyword arguments, the order of the 
+arguments doesn't matter.
+"""
+
+# using a positional & keyword arguments
+
+def describe_pet(animal, name):
+    """Display information about a pet."""
+    print("\nI have a " + animal + ".")
+    print("Its name is " + name + ".")
+
+describe_pet('hamster', 'harry')  # positional argument
+describe_pet(animal='dog', name='hero') # keyword argument
+
+# default values
+"""You can provide a default value for a parameter. When 
+function calls omit this argument the default value will be 
+used. Parameters with default values must be listed after 
+parameters without default values in the function's definition 
+so positional arguments can still work correctly.
+"""
+def describe_pet(name, animal = 'cat'):
+    """Display information about a pet."""
