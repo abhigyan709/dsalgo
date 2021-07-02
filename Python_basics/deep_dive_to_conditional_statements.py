@@ -143,3 +143,34 @@ while active:
 
     else:
         print(message)
+
+# breaking out of loops 
+"""You can use the break statement and the continue,
+statement with any of Python's loops.
+For example you can use break to quit a for loop that's working through a list or a dictionary. 
+You can use continue to skip over certain items when looping through a list or dictionary as well.
+"""
+
+# using continue in a loop
+banned_users = ['eve', 'fred', 'gary', 'helen']
+
+prompt = "\nAdd a player to your team."
+prompt += "\n Enter 'quit' when you'are done."
+
+players = []
+
+while True:
+    player = input(prompt)
+    if player == 'quit':
+        break
+    elif player in banned_users:
+        print(player + " is banned!")
+        continue
+    else:
+        players.append(player)
+
+print("\nYour team: ")
+for player in players:
+    print(player)
+
+    
