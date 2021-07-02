@@ -128,3 +128,18 @@ while message != 'quit':
 
     if message != 'quit':
         print(message)
+
+# using a flag 
+prompt = "\nTell me something, and I'll "
+prompt += "repeat it back to you. "
+prompt += "\n Enter 'quit' to end the program. "
+
+active = True
+while active:
+    message = input(prompt)
+
+    if message == 'quit':
+        active = False
+
+    else:
+        print(message)
