@@ -173,4 +173,15 @@ print("\nYour team: ")
 for player in players:
     print(player)
 
-    
+
+# avoiding infite loops
+
+#while True:
+ #   name = input("\nWho are you? ")
+  #  print("Nice to meet you, " + name + "!")
+
+# removing all instances of a value from a list
+
+pets = ['dog', 'cat', 'dog', 'fish', 'cat', 'rabbit', 'cat']
+print(pets)
+
