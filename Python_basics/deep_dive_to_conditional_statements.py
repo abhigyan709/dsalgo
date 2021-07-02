@@ -70,3 +70,61 @@ else:
     price = 10
 
 print("Your cose is $" + str(price) + ".")
+
+# condition testing with list 
+
+players = ['al', 'bey', 'cyn', 'date']
+
+if 'al' in players:
+    print(True)
+if 'eric' in players:
+    print(True)
+else:
+    print(False)
+
+
+# conditional tests with lists(cont.)
+
+banned_users = ['ann', 'chad', 'dee']
+user = 'erin'
+
+if user not in banned_users:
+    print("You can play!")
+
+# checking if a list is empty 
+players = []
+if players:
+    for player in players:
+        print("player: " + player.title())
+else:
+    print("We have no players yet!")
+
+age = input("How old are you ? ")
+age = int(age)
+
+if age >= 18:
+    print("\nYou can vote!")
+else:
+    print("\nSorry you can't vote!")
+
+
+# while loops:
+current_number = 1
+
+while current_number <= 5:
+    print(current_number)
+    current_number += 1
+
+
+# letting users choose when to quit
+
+prompt = "\nTell me something, and I'll"
+prompt += "repeat it back to you."
+prompt += "\nEnter 'quit' to end the program."
+
+message = ""
+while message != 'quit':
+    message = input(prompt)
+
+    if message != 'quit':
+        print(message)
