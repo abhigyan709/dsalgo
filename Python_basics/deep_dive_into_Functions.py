@@ -79,3 +79,19 @@ so positional arguments can still work correctly.
 """
 def describe_pet(name, animal = 'cat'):
     """Display information about a pet."""
+    print("\nI have a " + animal + ".")
+    print("Its name is " + name + ".")
+
+describe_pet('harry', 'hamster') # putting our own positional argument
+describe_pet('willie') # using default argument
+
+def describe_pet(animal, name=None):
+    print("\nI hava a " + animal + ".")
+    if name:
+        print("Its name is " + name + ".")
+
+describe_pet('hamster', 'harry') # positional argument declared
+describe_pet('snake') # deafult value is set to None, as it is optional name not provided
+
+# returning values
+
