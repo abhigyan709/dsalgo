@@ -27,3 +27,19 @@ def fast_out():
     sys.stdout.write(str(n)+"\n")
 
     # output string
+    s = "Abhigyan"
+
+    sys.stdout.write(s)
+    arr = [1, 2, 3, 4]
+    sys.stdout.write(" ".join(map(str, arr)) + "\n")
+
+    # store the end time 
+    end = time.perf_counter()
+
+    print("\nTime taken in fast Output: ", end - start)
+
+
+# driver code
+if __name__ == "__main__":
+    normal_out()
+    fast_out()
